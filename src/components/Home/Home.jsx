@@ -5,8 +5,7 @@ const Home = () => {
     const cards = useLoaderData() ;
     return (
         <div>
-            <h3>   all card is  {cards.length} ;</h3>
-            <div>
+            <div className="px-10 pt-10 lg:px-16 mb-20 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
                 {
                     cards.map(card => <Card key={card.id} card={card}></Card>)
                 }

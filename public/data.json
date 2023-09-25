@@ -5,7 +5,7 @@
         "category": "Health",
         "title": "Clean water for Children",
         "card_bg_color": "rgba(0, 82, 255, 0.15)",
-        "category_bg_color": "rgba(0, 82, 255, 0.20);",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
         "text_color": "#0052FF",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "price": 290
@@ -16,7 +16,7 @@
         "category": "Health",
         "title": "Enough medicine ",
         "card_bg_color": "rgba(0, 82, 255, 0.15)",
-        "category_bg_color": "rgba(0, 82, 255, 0.20);",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
         "text_color": "#0052FF",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "price": 300
@@ -27,7 +27,7 @@
         "category": "Health",
         "title": "Clean environment for all",
         "card_bg_color": "rgba(0, 82, 255, 0.15)",
-        "category_bg_color": "rgba(0, 82, 255, 0.20);",
+        "category_bg_color": "rgba(0, 82, 255, 0.20)",
         "text_color": "#0052FF",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "price": 500
@@ -38,7 +38,7 @@
         "category": "Education",
         "title": "Good Education",
         "card_bg_color": "rgba(255, 68, 74, 0.15)",
-        "category_bg_color": "rgba(255, 68, 74, 0.20);",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
         "text_color": "rgba(255, 68, 74, 1)",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "price": 350
@@ -49,7 +49,7 @@
         "category": "Education",
         "title": "Better Institute",
         "card_bg_color": "rgba(255, 68, 74, 0.15)",
-        "category_bg_color": "rgba(255, 68, 74, 0.20);",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
         "text_color": "rgba(255, 68, 74, 1)",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "price": 400
@@ -60,7 +60,7 @@
         "category": "Education",
         "title": "Good Equipment",
         "card_bg_color": "rgba(255, 68, 74, 0.15)",
-        "category_bg_color": "rgba(255, 68, 74, 0.20);",
+        "category_bg_color": "rgba(255, 68, 74, 0.20)",
         "text_color": "rgba(255, 68, 74, 1)",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "price": 250
