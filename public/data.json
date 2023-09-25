@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1 ,
+        "image": "https://i.ibb.co/g9jGr4Q/Health-1.png",
+        "category": "Health",
+        "title": "Clean water for Children",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "category_bg_color": "rgba(0, 82, 255, 0.20);",
+        "text_color": "#0052FF",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 290
+      },
+    {
+        "id": 8 ,
+        "image": "https://i.ibb.co/g9jGr4Q/Health-1.png",
+        "category": "Health",
+        "title": "Enough medicine ",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "category_bg_color": "rgba(0, 82, 255, 0.20);",
+        "text_color": "#0052FF",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 300
+      },
+    {
+        "id": 9 ,
+        "image": "https://i.ibb.co/g9jGr4Q/Health-1.png",
+        "category": "Health",
+        "title": "Clean environment for all",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
+        "category_bg_color": "rgba(0, 82, 255, 0.20);",
+        "text_color": "#0052FF",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 500
+      },
+    {
+        "id": 2 ,
+        "image": "https://i.ibb.co/wS57hzP/Education-2.png",
+        "category": "Education",
+        "title": "Good Education",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "category_bg_color": "rgba(255, 68, 74, 0.20);",
+        "text_color": "rgba(255, 68, 74, 1)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 350
+      },
+    {
+        "id": 7 ,
+        "image": "https://i.ibb.co/wS57hzP/Education-2.png",
+        "category": "Education",
+        "title": "Better Institute",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "category_bg_color": "rgba(255, 68, 74, 0.20);",
+        "text_color": "rgba(255, 68, 74, 1)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 400
+      },
+    {
+        "id": 10 ,
+        "image": "https://i.ibb.co/wS57hzP/Education-2.png",
+        "category": "Education",
+        "title": "Good Equipment",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
+        "category_bg_color": "rgba(255, 68, 74, 0.20);",
+        "text_color": "rgba(255, 68, 74, 1)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 250
+      },
+    {
+        "id": 3 ,
+        "image": "https://i.ibb.co/gwTDQwM/Clothing-3.png",
+        "category": "Clothing",
+        "title": "Used Clothing Drive",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "text_color": "rgba(121, 194, 63, 1)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 190
+      },
+    {
+        "id": 6 ,
+        "image": "https://i.ibb.co/gwTDQwM/Clothing-3.png",
+        "category": "Clothing",
+        "title": "New Clothing Drive",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "text_color": "rgba(121, 194, 63, 1)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 250
+      },
+    {
+        "id": 11 ,
+        "image": "https://i.ibb.co/gwTDQwM/Clothing-3.png",
+        "category": "Clothing",
+        "title": "Clothing one children",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "category_bg_color": "rgba(121, 194, 63, 0.20)",
+        "text_color": "rgba(121, 194, 63, 1)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 300
+      },
+      {
+        "id": 4 ,
+        "image": "https://i.ibb.co/bgKzMYP/Food-4.png",
+        "category": "Food",
+        "title": "Good Food for Everyone",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "text_color": "rgba(248, 113, 71,1)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 290
+      },
+      {
+        "id": 5 ,
+        "image": "https://i.ibb.co/bgKzMYP/Food-4.png",
+        "category": "Food",
+        "title": "Essential Food",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "text_color": "rgba(248, 113, 71,1)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 290
+      },
+      {
+        "id": 12 ,
+        "image": "https://i.ibb.co/bgKzMYP/Food-4.png",
+        "category": "Food",
+        "title": "Nuitrition Food",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "category_bg_color": "rgba(248, 113, 71, 0.20)",
+        "text_color": "rgba(248, 113, 71,1)",
+        "description": "Foods that naturally are nutrient-rich include fruits and vegetables. Lean meats, fish, whole grains, dairy, legumes, nuts, and seeds also are high in nutrients.",
+        "price": 350
+      }
+]
