@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const [show , setShow] = useState(false)
@@ -17,15 +17,31 @@ const Navbar = () => {
         </div>
 
         <div>
-          <ol className="flex gap-3 text-xl font-lg md:gap-4">
+          <ol className="flex gap-3 text-xl font-bold md:gap-4">
             <li onClick={()=>setShow(false)}>
-              <Link to="/">Home</Link>
+              <NavLink to="/"
+               className={({ isActive, isPending }) =>
+               isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""}
+               >
+                Home
+              </NavLink>
+              
             </li>
             <li onClick={()=>setShow(true)}>
-              <Link to="/donation">Donation</Link>
+              <NavLink to="/donation"
+              className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""}
+              >
+                Donation
+              </NavLink>
             </li>
             <li onClick={()=>setShow(true)}>
-              <Link to="/statistics">Statistics</Link>
+              <NavLink to="/statistics"
+              className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""}
+              >
+                Statistics
+              </NavLink>
             </li>
           </ol>
         </div>
@@ -37,7 +53,7 @@ const Navbar = () => {
       <div className={`${show && "hidden"} flex flex-col gap-7 justify-center items-center pt-12`}>
         <h2 className=" text-center text-3xl text-black font-bold "> I Grow By Helping People In Need</h2>
         <div>
-            <input type="text" name="" className="border border-gray-400 pl-2 py-2  rounded-l-md" placeholder="Search here....." />
+            <input type="text" name="" className="border border-gray-400 pl-2 py-2  rounded-l-md outline-none" placeholder="Search here....." />
             <span className="border text-lg py-2 px-3 border-gray-400 bg-[#FF444A] text-white rounded-r-md"><button>Search</button></span>
         </div>
       </div>
