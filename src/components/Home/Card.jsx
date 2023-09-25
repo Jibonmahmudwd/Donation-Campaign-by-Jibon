@@ -5,6 +5,7 @@ const Card = ({card}) => {
             <h3>{card.id}</h3>
             <img src={card.image} alt="" />
             <h1>{card.title}</h1>
+            <h3>{card.price}</h3>
         </div>
     );
 };
