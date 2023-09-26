@@ -52,7 +52,7 @@ const CardDetails = () => {
             <div className=" relative">
                 <img className="w-full md:h-[600px] object-fill" src={image} alt="" />
                 <div className="h-24 w-full bg-black bg-opacity-50 absolute bottom-0 ">
-                    <button onClick={handleClickData} className=" absolute bottom-6 left-7 py-2 px-3 rounded-md text-xl font-semibold" style={{backgroundColor:text_color}}>Donate ${price}</button>
+                    <button onClick={handleClickData} className=" absolute bottom-6 left-7 py-2 px-3 rounded-md text-xl text-white font-semibold" style={{backgroundColor:text_color}}>Donate ${price}</button>
                 </div>
             </div> 
             <div className="py-7 text-center md:text-left">

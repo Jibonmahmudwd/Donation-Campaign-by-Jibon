@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
 const DonationPage = ({ donate }) => {
-  const { image, title, category,card_bg_color, category_bg_color, text_color, price } =
+  const { id, image, title, category,card_bg_color, category_bg_color, text_color, price } =
     donate || {};
   return (
     <div className="lg:flex lg:h-[164px] ">
@@ -24,8 +24,8 @@ const DonationPage = ({ donate }) => {
         <h3 className="text-2xl font-semibold text-black ">
             {title}
         </h3>
-        <h3 className="text-lg font-semibold">${price}.00</h3>
-        <Link>
+        <h3 className="text-lg font-semibold" style={{color:text_color}}>${price}.00</h3>
+        <Link to={`/cards/${id}`}>
             <button className=" py-1 px-5 my-2 mb-4 text-white rounded-md text-lg font-semibold" style={{backgroundColor:text_color}}>View Details</button>
         </Link>
       </div>

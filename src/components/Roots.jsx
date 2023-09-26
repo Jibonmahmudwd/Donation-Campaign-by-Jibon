@@ -5,9 +5,14 @@ import Navbar from './Navbar'
 const Roots = () => {
     return (
         <div>
-            <Navbar></Navbar>
-            
-            <Outlet></Outlet>
+            <div>
+             <Navbar></Navbar>
+            </div>
+
+            <div>
+                
+                <Outlet></Outlet>
+            </div>
         </div>
     );
 };
