@@ -1,17 +1,17 @@
 
-import { PieChart, Pie, Cell } from "recharts";
+import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 
 const Statistics = () => {
  
     const storedData = JSON.parse(localStorage.getItem("donate")) || [];
 
     const donatedItem =  storedData?.length;
-    console.log(donatedItem);
+  
 
     const donated = (((donatedItem/12) * 100).toFixed(1))*1 ;
     const remaining = ((100-donated).toFixed(1))*1 ;
 
-    console.log(  donated ,  remaining);
+
 
   const donateData = [
       { name: "Reamining", item: remaining },
@@ -49,28 +49,32 @@ const Statistics = () => {
 
   return (
     <div>
-      <div className="flex w-[500px] h-[380px] m-auto items-center justify-center">
+      <div className="mx-auto w-full h-72 ">
 
-        <PieChart width={310} height={320}>
+        <ResponsiveContainer>
+          <PieChart>
           <Pie
+            // style={{display: "flex" , justifyContent: "center"}}
             data={donateData}
-            cx={150}
-            cy={150}
+            cx="50%"
+            cy="50%"
+            
             labelLine={false}
             label={pieStyle}
-            outerRadius={150}
-            fill="#8884d8"
+            outerRadius={130}
+            
             dataKey="item"
           >
             {donateData.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={requiredColors[index]} />
             ))}
           </Pie>
-        </PieChart>
-
+          </PieChart>
+        </ResponsiveContainer>
+       
       </div>
       
-      <div className="flex flex-col md:flex-row justify-center items-center md:gap-14 pb-10">
+      <div className="mt-3 flex flex-col md:flex-row justify-center items-center md:gap-14 pb-10">
         <div className="flex gap-3 justify-center items-center ">
          <h2 className="text-lg pb-1">Your Donation </h2>
          <span className="bg-[#00C49F] h-3 w-24"></span>

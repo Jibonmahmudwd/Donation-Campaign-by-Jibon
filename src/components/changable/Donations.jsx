@@ -41,7 +41,7 @@ const Donations = () => {
         setSeeless(false) ;
     }
    
-    console.log(displayData.length);
+    
     if(!displayData.length){
         swal("Soorrryy!", "Please Donate Something", "error") ;
     }

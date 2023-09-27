@@ -35,7 +35,6 @@ const [isTrue, setIsTrue] = useState(true) ;
       
 
     if(text.length ){
-        console.log("hi");
         const filterCard = cards.filter(newC => newC.category.toLowerCase() === text.toLowerCase()) ;
         filterCard.length && setNewCards(filterCard);
       } 

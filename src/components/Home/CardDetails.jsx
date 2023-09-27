@@ -6,13 +6,13 @@ const CardDetails = () => {
     const {cardId} = useParams() ;
     const cardIdInt = parseInt(cardId) ;
     
-    const allCard = useLoaderData() ;
+    const allCard = useLoaderData()  ;
 
     const [displayCard ,setDiplayCard] = useState({}) ;
 
     useEffect(()=>{
-        const reqCard = allCard.find(singleCard => singleCard.id === cardIdInt)
-        setDiplayCard(reqCard) 
+       const reqCard = allCard.find(singleCard => singleCard.id === cardIdInt)
+       setDiplayCard(reqCard) 
     },[allCard, cardIdInt]) ;
 
     
