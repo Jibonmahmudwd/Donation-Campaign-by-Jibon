@@ -57,7 +57,7 @@ const CardDetails = () => {
             </div> 
             <div className="py-7 text-center md:text-left">
                 <h2 className="text-4xl py-2 font-bold">{title}</h2>
-                <p >{description}</p>
+                <p className="text-justify">{description}</p>
             </div>
         </div>
     );

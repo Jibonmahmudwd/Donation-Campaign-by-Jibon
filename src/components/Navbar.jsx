@@ -2,6 +2,9 @@
 import { useEffect, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
+import { RiMenu3Line  } from 'react-icons/ri';
+import { RxCross2  } from 'react-icons/rx';
+
 import Card from "./Home/Card";
 // import { useState } from "react";
 
@@ -16,7 +19,8 @@ const Navbar = () => {
 const [cards, setCards] = useState([]);
 const [newCards, setNewCards] = useState([]);
 
-
+//state for menu 
+const [isTrue, setIsTrue] = useState(true) ;
   const handleChange = (e) => {
     
     setText(e.target.value);
@@ -75,13 +79,23 @@ const [newCards, setNewCards] = useState([]);
         } inset-0 w-[90%] mx-auto py-8 `}
       >
         {/* navbar start */}
+        {/* image section */}
         <div className="flex justify-between items-center">
           <div className=" w-1/4 ">
             <img src="https://i.ibb.co/7ynYT32/Logo.png" alt="logo" />
           </div>
 
-          <div>
-            <ol className="flex gap-3 text-xl font-bold md:gap-4">
+        {/* nav Link section */}
+          <div className=" relative md:static">
+
+            <div onClick={()=>{setIsTrue(!isTrue)}} className="flex justify-end text-2xl md:hidden">
+              {
+                isTrue ? <RiMenu3Line></RiMenu3Line> :
+              <RxCross2></RxCross2>
+              }
+            </div>
+
+            <ol className={` ${isTrue && "hidden"} pb-2 md:pb-0 md:flex gap-3 md:text-xl text-right font-bold md:gap-4`}>
               <li>
                 <NavLink
                   to="/"
@@ -125,15 +139,16 @@ const [newCards, setNewCards] = useState([]);
                 </NavLink>
               </li>
             </ol>
+
           </div>
         </div>
         {/* navbar end */}
 
         {/* search section */}
         <div
-          className={`${show || "hidden"} flex flex-col gap-7 justify-center items-center pt-12`}
+          className={`${show || "hidden"} flex flex-col gap-7 justify-center items-center ${isTrue && "pt-12"} `}
         >
-          <h2 className=" text-center text-3xl text-black font-bold ">
+          <h2 className=" text-center text-xl md:text-3xl text-black font-bold ">
             {" "}
             I Grow By Helping People In Need
           </h2>
@@ -158,7 +173,7 @@ const [newCards, setNewCards] = useState([]);
       
       {/* cards section */}
 
-      <div className={`${show || "hidden"} px-10 pt-10 lg:px-16 mb-20 grid gap-5 md:grid-cols-2 lg:grid-cols-4`}>
+      <div className={`${show || "hidden"} px-10 py-6  lg:px-16 mb-20 grid gap-5 md:grid-cols-2 lg:grid-cols-4`}>
                 {
                     newCards.map(card => <Card key={card.id} card={card}></Card>)
                 }

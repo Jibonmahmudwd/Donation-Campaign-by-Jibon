@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 const Card = ({ card }) => {
     const {id ,image,category, title, card_bg_color, category_bg_color ,text_color} = card || {} ;
   return (
-    <div className="">
-      <Link to={`/cards/${id}`}>
+    <div >
+      <Link to={`/cards/${id}`} className="flex flex-col h-full">
         <img src={image} className="w-full" alt="" />
+
         <div
-          className="pl-4 py-4"
+          className=" pl-4 py-4 pr-1 flex-grow flex flex-col"
           style={{ backgroundColor: card_bg_color }}
         >
           <h1

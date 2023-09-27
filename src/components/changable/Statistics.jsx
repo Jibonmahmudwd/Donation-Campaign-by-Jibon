@@ -70,7 +70,7 @@ const Statistics = () => {
 
       </div>
       
-      <div className=" sm:mx-auto flex flex-col md:flex-row justify-center items-center md:gap-14 pb-10">
+      <div className="flex flex-col md:flex-row justify-center items-center md:gap-14 pb-10">
         <div className="flex gap-3 justify-center items-center ">
          <h2 className="text-lg pb-1">Your Donation </h2>
          <span className="bg-[#00C49F] h-3 w-24"></span>
