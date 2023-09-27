@@ -79,7 +79,7 @@ const [isTrue, setIsTrue] = useState(true) ;
       >
         {/* navbar start */}
         {/* image section */}
-        <div className="flex justify-between items-center">
+        <div className={`flex justify-between items-center rounded-md ${show || "shadow-gray-300 shadow-2xl"} `}>
           <div className=" w-1/4 ">
             <img src="https://i.ibb.co/7ynYT32/Logo.png" alt="logo" />
           </div>
@@ -87,14 +87,15 @@ const [isTrue, setIsTrue] = useState(true) ;
         {/* nav Link section */}
           <div className=" relative md:static">
 
-            <div onClick={()=>{setIsTrue(!isTrue)}} className="flex justify-end text-2xl md:hidden">
+            <div onClick={()=>{setIsTrue(!isTrue)}} className=" flex justify-end text-2xl md:hidden">
               {
                 isTrue ? <RiMenu3Line></RiMenu3Line> :
               <RxCross2></RxCross2>
               }
             </div>
+            
 
-            <ol className={` ${isTrue && "hidden"} pb-2 md:pb-0 md:flex gap-3 md:text-xl text-right font-bold md:gap-4`}>
+            <ol className={` ${isTrue && "hidden"} pb-2 pr-2 md:pb-0 md:flex gap-3 text-lg md:text-xl text-right font-bold md:gap-4`}>
               <li>
                 <NavLink
                   to="/"
@@ -145,10 +146,10 @@ const [isTrue, setIsTrue] = useState(true) ;
 
         {/* search section */}
         <div
-          className={`${show || "hidden"} flex flex-col gap-7 justify-center items-center ${isTrue && "pt-12"} `}
+          className={`${show || "hidden"} flex flex-col gap-7 justify-center items-center ${isTrue && "pt-12" }  `}
         >
           <h2 className=" text-center text-xl md:text-3xl text-black font-bold ">
-            {" "}
+            
             I Grow By Helping People In Need
           </h2>
 

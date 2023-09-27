@@ -14,10 +14,10 @@ const Donations = () => {
     
  
     useEffect(()=>{
-        if(newData.length < 4){
+        if(newData.length <= 4){
             setDisplayData(newData) 
         }
-        else if(newData.length >=4){
+        else if(newData.length >4){
             const sliceData = newData?.slice(0,4) ;
             setDisplayData(sliceData) ;
             setSeeAll(true)
@@ -31,17 +31,19 @@ const Donations = () => {
     },[])
     
     const handleSeeButton = () =>{
-           setDisplayData(newData)
-           setSeeAll(false)
+           setDisplayData(newData) ;
+           setSeeAll(false) ;
+           setSeeless(true) ;
    }
 
       const handlelessButton =() => {
         const sliceData = newData?.slice(0,4) ;
         setDisplayData(sliceData) ;
         setSeeless(false) ;
+        setSeeAll(true) ;
     }
    
-    
+
     if(!displayData.length){
         swal("Soorrryy!", "Please Donate Something", "error") ;
     }
@@ -59,10 +61,10 @@ const Donations = () => {
 
              <div className="flex justify-center mb-10">
                
-                <button onClick={handleSeeButton}  className={`${!seeAll ? "hidden" : ""} text-xl font-semibold bg-[#009444] text-white px-5 py-2 rounded-md`}>
+                <button onClick={handleSeeButton}  className={`${!seeAll ? "hidden" : ""} shadow-black shadow-2xl text-xl font-semibold bg-[#009444] text-white px-5 py-2 rounded-md`}>
                     See All</button>
             
-                <button onClick={handlelessButton}  className={`${!seeless ? "hidden" : ""} text-xl font-semibold bg-[#009444] text-white px-5 py-2 rounded-md`}>See Less</button>
+                <button onClick={handlelessButton}  className={`${!seeless ? "hidden" : ""} shadow-black shadow-2xl text-xl font-semibold bg-[#009444] text-white px-5 py-2 rounded-md`}>See Less</button>
                
              </div>
 

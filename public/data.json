@@ -26,9 +26,9 @@
     "image": "https://i.ibb.co/gwTDQwM/Clothing-3.png",
     "category": "Clothing",
     "title": "Used Clothing Drive",
-    "card_bg_color": "rgba(121, 194, 63, 0.15)",
-    "category_bg_color": "rgba(121, 194, 63, 0.20)",
-    "text_color": "rgba(121, 194, 63, 1)",
+    "card_bg_color": "rgba(121, 220, 63, 0.15)",
+    "category_bg_color": "rgba(121, 220, 63, 0.20)",
+    "text_color": "rgba(121, 220, 63, 1)",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. ",
     "price": 190
   },
@@ -37,38 +37,38 @@
     "image": "https://i.ibb.co/bgKzMYP/Food-4.png",
     "category": "Food",
     "title": "Good Food for Everyone",
-    "card_bg_color": "rgba(248, 113, 71, 0.15)",
-    "category_bg_color": "rgba(248, 113, 71, 0.20)",
-    "text_color": "rgba(248, 113, 71,1)",
+    "card_bg_color": "rgba(220, 113, 71, 0.15)",
+    "category_bg_color": "rgba(220, 113, 71, 0.20)",
+    "text_color": "rgba(220, 113, 71,1)",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. ",
     "price": 290
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/bgKzMYP/Food-4.png",
+    "image": "https://i.ibb.co/CVs59RZ/donation-For-Food.png",
     "category": "Food",
     "title": "Essential Food",
-    "card_bg_color": "rgba(248, 113, 71, 0.15)",
-    "category_bg_color": "rgba(248, 113, 71, 0.20)",
-    "text_color": "rgba(248, 113, 71,1)",
+    "card_bg_color": "rgba(220, 113, 71, 0.15)",
+    "category_bg_color": "rgba(220, 113, 71, 0.20)",
+    "text_color": "rgba(220, 113, 71,1)",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "price": 290
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co/gwTDQwM/Clothing-3.png",
+    "image": "https://i.ibb.co/27VTQWC/donation-For-Clothing.png",
     "category": "Clothing",
     "title": "New Clothing Drive",
-    "card_bg_color": "rgba(121, 194, 63, 0.15)",
-    "category_bg_color": "rgba(121, 194, 63, 0.20)",
-    "text_color": "rgba(121, 194, 63, 1)",
+    "card_bg_color": "rgba(121, 220, 63, 0.15)",
+    "category_bg_color": "rgba(121, 220, 63, 0.20)",
+    "text_color": "rgba(121, 220, 63, 1)",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. ",
     "price": 250
   },
 
   {
     "id": 7,
-    "image": "https://i.ibb.co/wS57hzP/Education-2.png",
+    "image": "https://i.ibb.co/YbZydFL/donation-For-Health-1.png",
     "category": "Education",
     "title": "Better Institute",
     "card_bg_color": "rgba(255, 68, 74, 0.15)",
@@ -79,7 +79,7 @@
   },
   {
     "id": 8,
-    "image": "https://i.ibb.co/g9jGr4Q/Health-1.png",
+    "image": "https://i.ibb.co/jbfb3zX/1.png",
     "category": "Health",
     "title": "Enough medicine ",
     "card_bg_color": "rgba(0, 82, 255, 0.15)",
@@ -90,9 +90,9 @@
   },
   {
     "id": 9,
-    "image": "https://i.ibb.co/g9jGr4Q/Health-1.png",
+    "image": "https://i.ibb.co/P1XQ1Z4/2.png",
     "category": "Health",
-    "title": "Clean environment all",
+    "title": "Clean environment",
     "card_bg_color": "rgba(0, 82, 255, 0.15)",
     "category_bg_color": "rgba(0, 82, 255, 0.20)",
     "text_color": "#0052FF",
@@ -102,7 +102,7 @@
 
   {
     "id": 10,
-    "image": "https://i.ibb.co/wS57hzP/Education-2.png",
+    "image": "https://i.ibb.co/pjc1DKQ/donation-For-Health.png",
     "category": "Education",
     "title": "Good Equipment",
     "card_bg_color": "rgba(255, 68, 74, 0.15)",
@@ -114,24 +114,24 @@
 
   {
     "id": 11,
-    "image": "https://i.ibb.co/gwTDQwM/Clothing-3.png",
+    "image": "https://i.ibb.co/gjLc3JY/donation-For-Clothing-1.png",
     "category": "Clothing",
     "title": "Clothing one children",
-    "card_bg_color": "rgba(121, 194, 63, 0.15)",
-    "category_bg_color": "rgba(121, 194, 63, 0.20)",
-    "text_color": "rgba(121, 194, 63, 1)",
+    "card_bg_color": "rgba(121, 220, 63, 0.15)",
+    "category_bg_color": "rgba(121, 220, 63, 0.20)",
+    "text_color": "rgba(121, 220, 63, 1)",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. ",
     "price": 300
   },
 
   {
     "id": 12,
-    "image": "https://i.ibb.co/bgKzMYP/Food-4.png",
+    "image": "https://i.ibb.co/bWRwfbq/donation-For-Food-1.png",
     "category": "Food",
     "title": "Nuitrition Food",
-    "card_bg_color": "rgba(248, 113, 71, 0.15)",
-    "category_bg_color": "rgba(248, 113, 71, 0.20)",
-    "text_color": "rgba(248, 113, 71,1)",
+    "card_bg_color": "rgba(220, 113, 71, 0.15)",
+    "category_bg_color": "rgba(220, 113, 71, 0.20)",
+    "text_color": "rgba(220, 113, 71,1)",
     "description": "Foods that naturally are nutrient-rich include fruits and vegetables. Lean meats, fish, whole grains, dairy, legumes, nuts, and seeds also are high in nutrients.",
     "price": 350
   }
