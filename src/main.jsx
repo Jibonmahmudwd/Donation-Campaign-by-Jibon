@@ -5,7 +5,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Roots from './components/Roots'
 import Statistics from './components/changable/Statistics'
 import Donations from './components/changable/Donations'
-import Home from './components/Home/Home'
+// import Home from './components/Home/Home'
 import CardDetails from './components/Home/CardDetails'
 import ErrorPage from './components/ErrorPage'
 
@@ -15,11 +15,11 @@ const myCreatedRouter = createBrowserRouter([
     element: <Roots></Roots> ,
     errorElement: <ErrorPage></ErrorPage> ,
     children : [
-      {
-        path:'/',
-        loader: ()=> fetch("./data.json"),
-        element: <Home></Home>
-      },
+      // {
+      //   path:'/',
+      //   loader: ()=> fetch("./data.json"),
+      //   element: <Home></Home>
+      // },
       {
         path: '/cards/:cardId' ,
         element: <CardDetails></CardDetails>,
