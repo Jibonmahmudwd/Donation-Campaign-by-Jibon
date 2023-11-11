@@ -7,13 +7,11 @@
             When you on the home page,you can see a search field and serach button. <br>
             If, you type donation category type and click search button ,you can see 3 data on this category .
         </p>
-
         <p>
             <li><b><li>Donate Where You Want</li></b></li>
             When you want to donate specific category just click on this and then click dontate button. <br>
             As you can easily donate where you want.
-
-        </p>
+        </p>    
         <p>
             <li><b><li>See Your Donate </li></b></li>
             In the donate section , you can see how much you donate for human!!
@@ -28,3 +26,4 @@
         </p>
     </ul>
 
+    

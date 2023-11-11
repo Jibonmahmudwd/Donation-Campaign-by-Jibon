@@ -173,7 +173,7 @@ const [isTrue, setIsTrue] = useState(true) ;
       
       {/* cards section */}
 
-      <div className={`${show || "hidden"} px-10 py-6  lg:px-16 mb-20 grid gap-5 md:grid-cols-2 lg:grid-cols-4`}>
+      <div className={`${show || "hidden"} px-10 py-6  lg:px-16 mb-2 grid gap-5 md:grid-cols-2 lg:grid-cols-4`}>
                 {
                     newCards.map(card => <Card key={card.id} card={card}></Card>)
                 }
